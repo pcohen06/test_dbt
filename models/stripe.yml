@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: airbyte_stripe_ca
+    tables:
+      - name: raw_disputes
+
+  - name: airbyte_stripe_eu
+    tables:
+      - name: raw_disputes
+
+  - name: airbyte_stripe_us
+    tables:
+      - name: raw_disputes
